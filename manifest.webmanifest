@@ -1,0 +1,21 @@
+{
+  "name": "Calculator",
+  "short_name": "Calculator",
+  "start_url": "./",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Calculator",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./Assets.xcassets/AppIcon.appiconset/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./Assets.xcassets/AppIcon.appiconset/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

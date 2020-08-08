@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+#calculator {
+  width: 300px;
+  background: #fff;
+  padding: 10px 30px 20px 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 255, 255, 0.7)),
+    url("https://us.123rf.com/450wm/karandaev/karandaev1611/karandaev161100434/65841837-office-leather-desk-table-with-calculator-and-pen-top-view-with-copy-space.jpg?ver=6");
+  background-size: cover;
+  border-radius: 4px;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  box-shadow: 2px 2px 8px black;
+}
+#theme {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  cursor: pointer;
+}
+.btn-column button {
+  padding: 10px;
+  min-width: 67px;
+  background: aquamarine;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+  box-shadow: 1px 1px 2px;
+  font-size: 27px;
+  border-radius: 2px;
+}
+.btn-column button:hover,
+.btn-column button:active {
+  opacity: 1;
+}
+.btn-column button:focus {
+  outline-style: none;
+}
+.btn-column button:active {
+  transform: scale(0.9);
+  border: none !important;
+}
+.btn-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-bottom: 6px;
+}
+#outputbox-container {
+  padding: 6px;
+  display: flex;
+}
+#outputBox {
+  width: 100%;
+  padding: 1px 15px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 42px;
+  border-radius: 3px;
+  border: none;
+  font-family: "Abel", sans-serif;
+  text-align: right;
+  color: yellowgreen;
+  text-shadow: 3px 3px 3px black;
+}
+button.operators {
+  background: darkorange;
+  opacity: 1;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  box-shadow: 1px 1px 2px #000;
+}
+.title-text {
+  text-shadow: 1px 3px 2px black;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+#equals {
+  width: 140px;
+  background: yellowgreen;
+  opacity: 1;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  box-shadow: 1px 1px 2px #000;
+}
+
+button.special-buttons {
+  background: darkred;
+  opacity: 1;
+  color: #fff;
+  box-shadow: 1px 1px 2px #000;
+  text-shadow: 1px 1px 2px #000;
+}
